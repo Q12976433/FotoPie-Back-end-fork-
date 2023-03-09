@@ -3,7 +3,7 @@ name: Deploy to AWS S3
 on:
   push:
     branches:
-      - dev
+      - ecr-dockerfilee
       
 env:
   aws-region: ap-southeast-2
