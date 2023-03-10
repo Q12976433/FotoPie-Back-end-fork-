@@ -28,7 +28,7 @@ name: PotoPie Backend CICD Pipeline
 
 on:
   push:
-    branches: [ "DO-03-BED-Charles" ]
+    branches: [ "BED-Charles" ]
 
 env:
   AWS_REGION: 'ap-southeast-2'                  # set this to your preferred AWS region, e.g. us-west-1
